@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <declare-styleable name="CVCopyItem">
+        <attr name="cv_copy_bgColor" format="color" />
+        <attr name="cv_copy_btnBgColor" format="enum">
+            <enum name="yellow" value="1" />
+            <enum name="red" value="2" />
+        </attr>
+        <attr name="cv_copy_ContentText" format="string" />
+    </declare-styleable>
+</resources>
