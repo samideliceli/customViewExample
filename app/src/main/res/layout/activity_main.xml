@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD54F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.myapplication.customviews.CVCopyHotItem
+        android:id="@+id/cvHot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cv_hot_color="white" />
+
+    <com.example.myapplication.customviews.CVCopyHotItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cv_hot_color="red"
+        app:cv_hot_copy_item_ContentText="Berkays" />
+
+    <com.example.myapplication.customviews.CVCopyHotItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cv_hot_color="white"
+        app:cv_hot_copy_item_ContentText="Sami" />
+
+</LinearLayout>
