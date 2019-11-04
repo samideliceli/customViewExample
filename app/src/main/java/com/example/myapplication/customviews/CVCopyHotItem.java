@@ -6,6 +6,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +22,7 @@ public class CVCopyHotItem extends FrameLayout {
     private Context mContext;
     private TextView tvContent;
     private Button btnCopy;
+    private EditText loginEdittext;
 
     public CVCopyHotItem(@NonNull Context context) {
         super(context);
