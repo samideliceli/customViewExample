@@ -22,7 +22,7 @@ public class CVCopyHotItem extends FrameLayout {
     private Context mContext;
     private TextView tvContent;
     private Button btnCopy;
-    private EditText loginEdittext;
+    private EditText loginEditText;
 
     public CVCopyHotItem(@NonNull Context context) {
         super(context);
