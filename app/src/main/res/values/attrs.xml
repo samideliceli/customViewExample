@@ -9,4 +9,13 @@
         </attr>
         <attr name="cv_copy_ContentText" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="CVCopyHotItem">
+        <attr name="cv_hot_copy_item_ContentText" format="string" />
+        <attr name="cv_hot_color" format="enum">
+            <enum name="white" value="1" />
+            <enum name="red" value="2" />
+            <enum name="yellow" value="3" />
+        </attr>
+    </declare-styleable>
 </resources>
